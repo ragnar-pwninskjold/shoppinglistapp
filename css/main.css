@@ -1,0 +1,52 @@
+body {
+	background-color: #F2F2F2;
+}
+.masthead {
+	background-image: url("http://i.imgur.com/mqeJyRw.jpg");
+	background-size: cover;
+	height: 155px;
+	opacity: 0.8;
+	
+
+}
+
+.headline {
+	text-align: center;
+	display: block;
+	font-family: 'Pacifico', cursive;
+	color: black;
+	font-size: 4.5rem;
+	padding-top: 5px;
+}
+
+.inputbox {
+	text-align: center;
+	display: block;
+	padding-top: 100px;
+}
+
+.have{
+
+		text-align: center;
+		font-family: 'Shadows Into Light', cursive;
+
+
+}
+
+.need {
+
+		text-align: center;
+		font-family: 'Shadows Into Light', cursive;
+
+	
+}
+
+.need h1, .have h1 {
+	text-align: center;
+	padding-top: 99px;
+}
+
+footer {
+	padding-top: 200px;
+	text-align: center;
+}
