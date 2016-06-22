@@ -43,8 +43,10 @@ body {
 		padding-left: 200px;
 		font-size: 1.5rem;
 		vertical-align: top;
+}
 
-	
+ul {
+	list-style: none;
 }
 
 .need h1, .have h1 {
@@ -58,13 +60,26 @@ footer {
 	text-align: center;
 }
 
-h4 {
-	width: 100px;
+li {
+	width: 200px;
 	height: 30px;
 	margin: 0 auto;
+	padding-bottom: 10px;
+	font-size: 1.3rem;
 }
 
-h4:hover {
+li:hover {
 	cursor: pointer;
-	background-color: green;
+	background-color: #DEDEDE;
+	border-radius: 15%;
 }
+
+button {
+	display: inline-block;
+	color: red;
+	background: none;
+	border: none;
+	padding-left: 15px;
+	
+}
+
