@@ -34,6 +34,9 @@ div {
 	text-align: center;
 	display: block;
 	padding-top: 50px;
+	font-family: 'Shadows Into Light';
+	
+
 }
 
 input {
@@ -41,7 +44,7 @@ input {
 	font-size: 1.8rem;
 	border-style: none;
 	background-color:#F2F2F2;
-	font-color: black;
+	font-size: 3rem;
 }
 
 input:hover {
@@ -165,3 +168,63 @@ ul{
 	}
   
 }
+
+
+/*
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+*/
