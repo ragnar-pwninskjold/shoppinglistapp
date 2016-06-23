@@ -6,6 +6,11 @@ body {
 div {
 	margin: bottom: 100px;
 }
+
+#lists {
+	width: 100%;
+	margin: 0 auto;
+}
 .masthead {
 	background-image: url("http://i.imgur.com/mqeJyRw.jpg");
 	background-size: cover;
@@ -63,17 +68,11 @@ input:hover {
 
 .have, 
 .need {
-	float: left;
-	width: 40%;
+	width: 45%;
 	margin: 0 auto;
 }
 
-#lists {
-	height: 100px
-	width: 80%;
-	margin: 0 auto;
-	background-color: black;
-}
+
 
 ul {
 	list-style: none;
