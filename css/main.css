@@ -134,3 +134,33 @@ ul{
 :-ms-input-placeholder {  
    color: black;  
 }
+
+@media only screen and (max-width: 790px) {
+    .headline {
+    	font-size: 3.5rem;
+    }
+
+  
+}
+
+@media only screen and (max-width: 635px) {
+    .headline {
+    	font-size: 3rem;
+    }
+
+  
+}
+
+@media only screen and (max-width: 533px) {
+    .masthead {
+    	height:175px;
+    }
+	.need {
+		display: block;
+	}
+
+	.have {
+		width: 98%;
+	}
+  
+}
