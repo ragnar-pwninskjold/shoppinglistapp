@@ -76,6 +76,7 @@ input:hover {
 
 ul {
 	list-style: none;
+	padding: 0;
 }
 
 .need h1, .have h1 {
