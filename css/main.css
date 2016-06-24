@@ -42,9 +42,11 @@ div {
 input {
 	text-align: center;
 	font-size: 1.8rem;
-	outline: none;
+	/* outline-color: #474747;*/
 	background-color:#F2F2F2;
 	font-size: 3rem;
+	outline: none;
+	border: 0px;
 }
 
 input:hover {
