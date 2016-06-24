@@ -42,7 +42,7 @@ div {
 input {
 	text-align: center;
 	font-size: 1.8rem;
-	border-style: none;
+	outline: none;
 	background-color:#F2F2F2;
 	font-size: 3rem;
 }
