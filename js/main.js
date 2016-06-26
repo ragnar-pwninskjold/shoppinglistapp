@@ -14,8 +14,15 @@ $(document).ready(function(){
 	$("#lists").on("mouseenter", "li", function() {
 		var deleteButton = "<button id='deleteButton'>&#10006</button>"
 		$(this).append(deleteButton);
+		if($(this).closest("div").hasClass("need")) {
 		var checkMark = "<button id='checkMark'>&#10004</button>"
 		$(this).prepend(checkMark);
+		}
+		else {
+		var checkMark = "<button id='checkMark'>&#8592</button>"
+		$(this).prepend(checkMark);
+		}
+
 	})
 	.on("mouseleave", "li", function() {
 	$("#deleteButton").remove();
@@ -28,7 +35,12 @@ $(document).ready(function(){
 	})
 	// if the item is clicked, transfer between list
 	.on("click", "#checkMark", function(){
+		if($(this).closest("div").hasClass("need")) {
 		$(this).closest("li").appendTo(".have").css("list-style", "none");
+		}
+		else {
+		$(this).closest("li").appendTo(".need").css("list-style", "none");
+		}	
 	});
 });
 
