@@ -97,7 +97,7 @@ footer {
 }
 
 li {
-	width: 200px;
+	width: 250px;
 	height: 30px;
 	margin: 0 auto;
 	padding-bottom: 10px;
@@ -110,12 +110,20 @@ li:hover {
 	border-radius: 15%;
 }
 
-button {
+#deleteButton {
 	display: inline-block;
 	color: red;
 	background: none;
 	border: none;
 	padding-left: 15px;
+}
+
+#checkMark {
+	display: inline-block;
+	color: green;
+	background: none;
+	border: none;
+	padding-right: 15px;
 }
 
 ul{
