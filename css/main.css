@@ -107,7 +107,7 @@ li {
 li:hover {
 	cursor: pointer;
 	background-color: #DEDEDE;
-	border-radius: 15%;
+	border-radius: 25px;
 }
 
 #deleteButton {
@@ -177,4 +177,27 @@ ul{
 		width: 98%;
 	}
   
+}
+
+#content-footer > p {
+  color: black;
+  margin: -.9em;
+  text-align: center;
+
+}
+
+#content-footer {
+  background-color: #D3CBBD;
+  margin: 50px;
+  border-radius: 50px;
+  height: 15px;
+  padding: 25px;
+  margin-top: 275px;
+}
+
+.social > li {
+  display: inline-block;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
