@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light|Architects+Daughter' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <header class="masthead">
@@ -13,26 +14,23 @@
 </header>
 
 <form class="inputbox">
-Add to list: <br>
-<input type="text" name="addition">
+<input type="text" id="needed" autofocus value="What do you need?"onfocus="this.value = this.value;" onclick="this.value=' ';">
 </form>
 
-<section class="need">
-<h1>This is what we need:</h1>
-<h4>Eggs</h4>
-<h4>Pork</h4>
-<h4>Steak</h4>
-	
-</section>
 
-<section class="have">
-<h1>In the cart:</h1>
-<h4>Spinach</h4>
-<h4>Asparagus</h4>
-<h4>Brussel Sprouts</h4>
-	
-</section>
+<div id="lists">
+<div class="need">
+<h1>Need:</h1>
+<ul>
+</ul>
+</div>
 
+<div class="have">
+<h1>Cart:</h1>
+<ul>
+</ul>
+</div>
+</div>
 
 
 
@@ -40,10 +38,12 @@ Add to list: <br>
 
 
 
-<footer>
-	<h1>This will be contact information</h1>
+
+<footer id="content-footer">
+  <p>Reach out to me at the places below!</p>
+    <p class="social"><a href="https://github.com/skochel">GitHub</a></p>
 </footer>
 <script src="https://code.jquery.com/jquery.min.js"></script>
-<script src="js/app.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
