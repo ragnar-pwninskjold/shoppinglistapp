@@ -6,7 +6,7 @@ $(document).ready(function(){
 	$("form").submit(function(event) {
 		event.preventDefault();
 		var input = $("#needed").val();
-		$(".need > ul").append("<li>"+input+"</li>");
+		$(".need > ul").append("<li><span>"+input+"</span></li>");
 		$("#needed").val(" ");
 	});
 
@@ -16,17 +16,20 @@ $(document).ready(function(){
 		$(this).append(deleteButton);
 		if($(this).closest("div").hasClass("need")) {
 		var checkMark = "<button id='checkMark'>&#10004</button>"
-		$(this).prepend(checkMark);
+		$(this).prepend(checkMark).css("padding-right", "0");
 		}
 		else {
 		var checkMark = "<button id='checkMark'>&#8592</button>"
 		$(this).prepend(checkMark);
 		}
+		$(this).children("span").css("margin-left", "-5.7px")
+		
 
 	})
 	.on("mouseleave", "li", function() {
 	$("#deleteButton").remove();
 	$("#checkMark").remove();
+	$(this).children("span").css("margin-left", "5.7px")
 	})
 	//delete the item on click of the button
 	.on("click", "#deleteButton", function(){
@@ -41,6 +44,11 @@ $(document).ready(function(){
 		else {
 		$(this).closest("li").appendTo(".need").css("list-style", "none");
 		}	
+	});
+
+	$("body").click(function(){
+		$("#needed").focus();
+
 	});
 });
 

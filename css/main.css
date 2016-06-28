@@ -34,7 +34,7 @@ div {
 	text-align: center;
 	display: block;
 	padding-top: 50px;
-	font-family: 'Shadows Into Light';
+	font-family: 'Shadows Into Light';	
 	
 
 }
@@ -42,16 +42,12 @@ div {
 input {
 	text-align: center;
 	font-size: 1.8rem;
-	/* outline-color: #474747;*/
-	background-color:#F2F2F2;
+	outline-style: solid;
+	outline-color: black;
+	background-color: white;
 	font-size: 3rem;
-	outline: none;
-	border: 0px;
 }
 
-input:hover {
-	background-color: white;
-}
 
 .have{
 
